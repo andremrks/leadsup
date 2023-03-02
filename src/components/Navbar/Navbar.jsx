@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./navbar.css";
 
-import logo from "../../assets/images/Logo LeadsUp FINAL BLACK.png";
+import logo from "../../assets/images/Logo2.png";
 
 import { HiOutlineMenuAlt1 } from "react-icons/hi";
-import { IoCloseOutline } from "react-icons/io5";
+import { IoIosClose } from "react-icons/io";
 
 const Menu = () => (
   <>
@@ -13,6 +13,9 @@ const Menu = () => (
     </p>
     <p>
       <a href="#servicos">Serviços</a>
+    </p>
+    <p>
+      <a href="#estrategia">Estratégia</a>
     </p>
     <p>
       <a href="#parceiros">Parceiros</a>
@@ -27,7 +30,7 @@ const Navbar = () => {
   const [toogleMenu, setToogleMenu] = useState(false);
 
   return (
-    <div className="leadsup__navbar section__padding">
+    <nav className="leadsup__navbar">
       <div className="leadsup__navbar-links">
         <div className="leadsup__navbar-links_logo">
           <img id="home" src={logo} alt="LeadsUP Logo" />
@@ -38,7 +41,7 @@ const Navbar = () => {
       </div>
       <div className="leadsup__navbar-menu">
         {toogleMenu ? (
-          <IoCloseOutline
+          <IoIosClose
             color="var(--color-paragraph-variant)"
             size={27}
             onClick={() => setToogleMenu(false)}
@@ -50,9 +53,15 @@ const Navbar = () => {
             onClick={() => setToogleMenu(true)}
           />
         )}
-        {toogleMenu && <Menu />}
+        {toogleMenu && (
+          <div className="leadsup__navbar-menu_container">
+            <div className="leadsup__navbar-menu_container-links">
+              <Menu />
+            </div>
+          </div>
+        )}
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -3,3 +3,7 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Navbar } from "./Navbar/Navbar";
 export { default as Parceiros } from "./Parceiros/Parceiros";
 export { default as Servicos } from "./Servicos/Servicos";
+export { default as Hero } from "./Hero/Hero";
+export { default as Estrategia } from "./Estrategia/Estrategia";
+export { default as Resultados } from "./Resultados/Resultados";
+export { default as CTA } from "./CTA/CTA";

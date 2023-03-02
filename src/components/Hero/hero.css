@@ -1,0 +1,91 @@
+.leadsup__hero-container {
+  background-image: url("../../assets/images/hero_background.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.leadsup__hero-container::before {
+  content: "";
+  background: linear-gradient(
+    transparent,
+    rgba(255, 255, 255, 0.001),
+    rgb(255, 255, 255)
+  );
+  width: 100%;
+  height: 80%;
+  position: absolute;
+}
+
+.leadsup__hero-info {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.leadsup__hero-info p {
+  font-size: 1.2rem;
+  text-shadow: 1.5px 1.5px var(--color-white);
+  margin-bottom: 2rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.leadsup__hero-info h1 {
+  text-shadow: 1px 1px 1px var(--color-white);
+  color: var(--color-title);
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+
+.leadsup__hero-info h1 span {
+  text-transform: uppercase;
+}
+
+.leadsup__hero-info button {
+  padding: 0.8em 1.8em;
+  outline: none;
+  border: 2px solid var(--color-primary);
+  border-radius: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-primary);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  z-index: 1;
+  font-family: inherit;
+  color: var(--color-white);
+  cursor: pointer;
+  margin: 1rem 0;
+  transition: all 400ms ease;
+}
+
+.leadsup__hero-info button::before {
+  content: "";
+  width: 0;
+  height: 600%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-white);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.leadsup__hero-info button:hover::before {
+  width: 100%;
+}
+
+.leadsup__hero-info button:hover {
+  color: var(--color-primary);
+  transform: scale(1.06);
+}
