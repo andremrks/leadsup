@@ -1,0 +1,75 @@
+.leadsup__navbar {
+  
+}
+
+.leadsup__navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leadsup__navbar-links_container {
+  display: flex;
+}
+
+.leadsup__navbar-links_container p {
+    font-size: .9rem;
+  margin-right: 1rem;
+}
+
+.leadsup__navbar-links_container p a {
+  color: var(--color-paragraph-variant);
+}
+
+.leadsup__navbar-links_container p a:hover {
+  color: var(--color-primary);
+}
+
+.leadsup__navbar-links_container p:last-child {
+  margin-right: 0;
+}
+
+.leadsup__navbar-links_logo img {
+  width: 120px;
+  cursor: pointer;
+}
+
+.leadsup__navbar-menu {
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+
+    .gpt3__navbar-menu {
+        display: flex; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 1.25rem;
+    }
+
+    .gpt3__navbar-menu_container-links-sign {
+        margin-top: 2rem;
+        display: block;
+    }
+}
