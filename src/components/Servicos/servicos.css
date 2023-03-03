@@ -2,7 +2,7 @@
   padding: 5rem 10rem;
 }
 
-.leadsup__servicos h1 {
+.leadsup__servicos > h1 {
   text-align: center;
   text-shadow: 1px 1px 1px var(--color-white);
   color: var(--color-title);
@@ -10,7 +10,7 @@
   font-weight: 800;
 }
 
-.leadsup__servicos p {
+.leadsup__servicos > p {
   text-align: center;
   font-size: 1.1rem;
   text-shadow: 1.5px 1.5px var(--color-white);
@@ -28,16 +28,24 @@
 }
 
 .leadsup__servicos-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 250px;
   height: 280px;
   background-color: var(--color-primary);
-  /*box-shadow: 15px 15px 30px #191919, -15px -15px 30px #292929;*/
+  cursor: pointer;
   transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
     transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s, all 400ms ease;
   overflow: hidden;
+}
+
+.leadsup__servicos-card h1 {
+  color: var(--color-title);
+  margin-top: 135px;
+  position: absolute;
+  font-size: 1.1rem;
 }
 
 .leadsup__servicos-card:hover {
@@ -46,8 +54,71 @@
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   transform: scale(1.05);
+  transition: var(--transition);
+}
+
+.leadsup__servicos-card_arrow {
+  margin-top: 25px;
+  opacity: 1;
+  transition: var(--transition);
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+.leadsup__servicos-card_text {
+  position: absolute;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.leadsup__servicos-card:hover .leadsup__servicos-card_text {
+  margin-top: 150px;
+  opacity: 1;
+  transition: var(--transition);
+}
+
+.leadsup__servicos-card:hover .leadsup__servicos-card_arrow {
+  margin-top: 150px;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.leadsup__servicos-card_text p {
+  padding: 1rem;
+  text-align: center;
+  color: var(--color-white);
+  font-size: 0.9rem;
 }
 
 .leadsup__servicos-card img {
   width: 10rem;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
 }

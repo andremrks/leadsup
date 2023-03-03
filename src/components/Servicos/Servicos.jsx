@@ -22,55 +22,103 @@ const Servicos = () => {
             <div className="leadsup__servicos-card_img">
               <img src={inbound} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>Inbound Marketing</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>
+                Automações e robôs para construir uma base de leads ﬁel e
+                engajada.
+              </p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">
               <img src={mkt} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>Marketing de Conteúdo</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>
+                Criação de conteúdos focados em sua persona (cliente ideal) e
+                otimizados para os mecanismos de busca.
+              </p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">
               <img src={seo} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>SEO</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>Seu site e conteúdos nas primeiras páginas do Google.</p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">
               <img src={ads} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>ADS</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>Aumento no volume de tráfego focado na sua persona.</p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">
               <img src={datascience} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>Data Science</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>
+                Os projetos passam por uma equipe especializada de análise de
+                dados para adquirir sempre a melhor performance.
+              </p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">
               <img src={prevenda} alt="" />
             </div>
-            <AiOutlineArrowDown
-              size={25}
-              style={{ color: "var(--color-white)" }}
-            />
+            <h1>Pré-vendas</h1>
+            <div className="leadsup__servicos-card_text">
+              <p>
+                SDRs com habilidades e técnicas de vendas com objetivo de
+                agendar o máximo de reuniões qualificadas.
+              </p>
+            </div>
+            <div className="leadsup__servicos-card_arrow">
+              <AiOutlineArrowDown
+                size={25}
+                style={{ color: "var(--color-white)" }}
+              />
+            </div>
           </div>
         </div>
       </Fade>
