@@ -1,0 +1,34 @@
+.leadsup__vantagens {
+  padding: 1.5rem 10rem;
+  margin: 2rem 0;
+}
+
+.leadsup__vantagens-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leadsup__vantanges-img img {
+  width: 400px;
+}
+
+.leadsup__vantagens-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leadsup__vantagens-content h1 {
+  color: var(--color-title);
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.leadsup__vantagens-itens_item {
+  margin-bottom: 1rem;
+}
+
+.leadsup__vantagens-itens_item:last-child {
+  margin-bottom: 0;
+}

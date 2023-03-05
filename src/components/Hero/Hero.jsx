@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <section className="leadsup__hero-container">
-      <Fade Fade delay={1e3} direction="up" cascade damping={1e-1}>
+      <Fade delay={1e2} direction="up" cascade damping={1e-1}>
         <div className="leadsup__hero-info">
           <p>Quer impulsionar o seu negócio?</p>
           <h1>

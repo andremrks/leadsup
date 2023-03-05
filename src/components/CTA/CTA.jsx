@@ -4,16 +4,15 @@ import ctaImg from "../../assets/images/ilustração1.png";
 
 const CTA = () => {
   return (
-    <section className="leadsups__cta">
+    <section id="cta" className="leadsups__cta">
       <div className="leadsup__cta-container">
         <div className="leadsup__cta-content">
           <h1>Inteligência comercial ao seu dispor!</h1>
           <p>
-            Se você está buscando uma maneira de aumentar sua presença no
-            mercado e alcançar resultados reais, você veio ao lugar certo!
-            <br /> Somos uma equipe especializada em inteligência comercial, que
-            está dedicada a trazer soluções sob medida para atender às suas
+            Somos uma equipe especializada em inteligência comercial, que está
+            dedicada a trazer soluções sob medida para atender às suas
             necessidades específicas.
+            <br />
             <br />
             Com nosso serviço especializado, você pode contar com resultados
             tangíveis e um aumento na sua base de clientes. Não perca mais

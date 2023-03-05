@@ -1,0 +1,23 @@
+.leadsup__parceiros {
+  padding: 1.5rem 10rem;
+  margin: 5rem 0;
+}
+
+.leadsup__parceiros-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leadsup__parceiros-text h1 {
+  text-align: center;
+}
+
+.leadsup__parceiros-text p {
+  text-align: center;
+}
+
+.leadsup__parceiros-carousel {
+  margin: 3rem;
+  width: 50%;
+}

@@ -12,10 +12,19 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
+      <a href="#cta">Quem Somos?</a>
+    </p>
+    <p>
       <a href="#servicos">Serviços</a>
     </p>
     <p>
+      <a href="#vantagens">Vantagens</a>
+    </p>
+    <p>
       <a href="#estrategia">Estratégia</a>
+    </p>
+    <p>
+      <a href="#processos">Processos</a>
     </p>
     <p>
       <a href="#parceiros">Parceiros</a>

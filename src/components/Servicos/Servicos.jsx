@@ -16,7 +16,7 @@ const Servicos = () => {
     <section id="servicos" className="leadsup__servicos">
       <h1>Veja como podemos atuar no seu negócio:</h1>
       <p>Gere mais leads qualificados, agendamentos de reuniões e vendas!</p>
-      <Fade Fade delay={1e3} direction="left" cascade damping={1e-1}>
+      <Fade delay={1e2} direction="left" cascade damping={1e-1}>
         <div className="leadsup__servios-container">
           <div className="leadsup__servicos-card">
             <div className="leadsup__servicos-card_img">

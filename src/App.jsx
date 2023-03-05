@@ -9,6 +9,8 @@ import {
   Estrategia,
   Resultados,
   CTA,
+  Vantagens,
+  Processos,
 } from "./components";
 
 const App = () => {
@@ -18,7 +20,9 @@ const App = () => {
       <Hero />
       <CTA />
       <Servicos />
+      <Vantagens />
       <Estrategia />
+      <Processos />
       <Parceiros />
       <Resultados />
       <Contato />
