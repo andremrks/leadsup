@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/leadsup/static/css/main.f107691e.css",
+    "main.js": "/leadsup/static/js/main.bb2ade8c.js",
+    "static/media/hero_background.png": "/leadsup/static/media/hero_background.2924301d827d26b5b254.png",
+    "static/media/parceiro1.png": "/leadsup/static/media/parceiro1.f30e9fb718d3879fde28.png",
+    "static/media/vantagensImg.png": "/leadsup/static/media/vantagensImg.edcb29160bd3beed88b7.png",
+    "static/media/parceiro3.png": "/leadsup/static/media/parceiro3.a44866fe75ae65707327.png",
+    "static/media/kickoff.png": "/leadsup/static/media/kickoff.fb04e36d53f085a5ba56.png",
+    "static/media/start.png": "/leadsup/static/media/start.0113c232bc71dc152758.png",
+    "static/media/Logo2.png": "/leadsup/static/media/Logo2.6027de8c91b2f115e29d.png",
+    "static/media/ilustração1.png": "/leadsup/static/media/ilustração1.9a3f0ff48ff6a74b34ea.png",
+    "static/media/2- ícone pré-vendas.png": "/leadsup/static/media/2- ícone pré-vendas.3fd2a5ffd1610945e877.png",
+    "static/media/fluxo.png": "/leadsup/static/media/fluxo.ede4f1886e05aa222e70.png",
+    "static/media/Logo LeadsUp FINAL ICON-WHITE.png": "/leadsup/static/media/Logo LeadsUp FINAL ICON-WHITE.29769d3f65fa785a390b.png",
+    "static/media/parceiro5.png": "/leadsup/static/media/parceiro5.e54c32b304aac19fd37a.png",
+    "static/media/parceiro2.png": "/leadsup/static/media/parceiro2.dd231fa6312a814cdf7f.png",
+    "static/media/parceiro4.png": "/leadsup/static/media/parceiro4.4556f2334cc78f1ec665.png",
+    "static/media/1- ícone data science.png": "/leadsup/static/media/1- ícone data science.c86c852bccc79229b6a3.png",
+    "static/media/validacao.png": "/leadsup/static/media/validacao.0fdfed2bed8492a554f5.png",
+    "index.html": "/leadsup/index.html",
+    "main.f107691e.css.map": "/leadsup/static/css/main.f107691e.css.map",
+    "main.bb2ade8c.js.map": "/leadsup/static/js/main.bb2ade8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f107691e.css",
+    "static/js/main.bb2ade8c.js"
+  ]
+}
