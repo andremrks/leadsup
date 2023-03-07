@@ -7,7 +7,6 @@ import {
   Servicos,
   Hero,
   Estrategia,
-  Resultados,
   CTA,
   Vantagens,
   Processos,
@@ -24,7 +23,6 @@ const App = () => {
       <Estrategia />
       <Processos />
       <Parceiros />
-      <Resultados />
       <Contato />
       <Footer />
     </>

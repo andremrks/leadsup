@@ -9,15 +9,27 @@
   justify-content: center;
 }
 
+.leadsup__parceiros-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .leadsup__parceiros-text h1 {
+  color: var(--color-title);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
 .leadsup__parceiros-text p {
-  text-align: center;
+  color: var(--color-pararaph-variant);
+  font-size: .9rem;
+  text-align: left;
 }
 
 .leadsup__parceiros-carousel {
   margin: 3rem;
-  width: 50%;
+  width: 40%;
 }

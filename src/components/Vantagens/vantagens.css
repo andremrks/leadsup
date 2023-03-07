@@ -10,22 +10,25 @@
 }
 
 .leadsup__vantanges-img img {
-  width: 400px;
+  width: 380px;
 }
 
 .leadsup__vantagens-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .leadsup__vantagens-content h1 {
+  font-weight: 600;
   color: var(--color-title);
   font-size: 1.5rem;
   margin-bottom: 4rem;
 }
 
 .leadsup__vantagens-itens_item {
+  color: var(--color-paragraph-variant);
+  font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 

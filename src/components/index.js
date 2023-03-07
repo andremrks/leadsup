@@ -5,7 +5,6 @@ export { default as Parceiros } from "./Parceiros/Parceiros";
 export { default as Servicos } from "./Servicos/Servicos";
 export { default as Hero } from "./Hero/Hero";
 export { default as Estrategia } from "./Estrategia/Estrategia";
-export { default as Resultados } from "./Resultados/Resultados";
 export { default as CTA } from "./CTA/CTA";
 export { default as Vantagens } from "./Vantagens/Vantagens";
 export { default as Processos } from "./Processos/Processos";
