@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/leadsup/static/css/main.f107691e.css",
-    "main.js": "/leadsup/static/js/main.bb2ade8c.js",
+    "main.css": "/leadsup/static/css/main.eb040c31.css",
+    "main.js": "/leadsup/static/js/main.889da237.js",
     "static/media/hero_background.png": "/leadsup/static/media/hero_background.2924301d827d26b5b254.png",
     "static/media/parceiro1.png": "/leadsup/static/media/parceiro1.f30e9fb718d3879fde28.png",
     "static/media/vantagensImg.png": "/leadsup/static/media/vantagensImg.edcb29160bd3beed88b7.png",
@@ -19,11 +19,11 @@
     "static/media/1- ícone data science.png": "/leadsup/static/media/1- ícone data science.c86c852bccc79229b6a3.png",
     "static/media/validacao.png": "/leadsup/static/media/validacao.0fdfed2bed8492a554f5.png",
     "index.html": "/leadsup/index.html",
-    "main.f107691e.css.map": "/leadsup/static/css/main.f107691e.css.map",
-    "main.bb2ade8c.js.map": "/leadsup/static/js/main.bb2ade8c.js.map"
+    "main.eb040c31.css.map": "/leadsup/static/css/main.eb040c31.css.map",
+    "main.889da237.js.map": "/leadsup/static/js/main.889da237.js.map"
   },
   "entrypoints": [
-    "static/css/main.f107691e.css",
-    "static/js/main.bb2ade8c.js"
+    "static/css/main.eb040c31.css",
+    "static/js/main.889da237.js"
   ]
 }
