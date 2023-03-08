@@ -25,11 +25,37 @@
 
 .leadsup__parceiros-text p {
   color: var(--color-pararaph-variant);
-  font-size: .9rem;
-  text-align: left;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .leadsup__parceiros-carousel {
   margin: 3rem;
   width: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__parceiros {
+    padding: 1.5rem 5rem;
+  }
+
+  .leadsup__parceiros-text p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__parceiros {
+    padding: 1.5rem 3rem;
+  }
+
+  .leadsup__parceiros-container {
+    flex-direction: column;
+  }
+
+  .leadsup__parceiros-carousel {
+    margin: 1rem;
+    width: 80%;
+  }
 }

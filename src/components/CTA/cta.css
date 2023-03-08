@@ -47,7 +47,7 @@
   text-transform: uppercase;
   font-weight: 500;
   z-index: 1;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: var(--color-primary);
   cursor: pointer;
   margin: 1rem 0;
@@ -75,4 +75,67 @@
 .leadsup__cta-content button:hover {
   color: var(--color-white);
   transform: scale(1.06);
+}
+
+@media screen and (max-width: 1050px) {
+  .leadsup__cta-content {
+    margin-right: 1rem;
+    width: 60%;
+  }
+
+  .leadsup__cta-image img {
+    width: 15rem;
+  }
+  .leadsup__cta-content h1 {
+    width: 90%;
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+  }
+
+  .leadsup__cta-content p {
+    width: 90%;
+    font-size: 0.75rem;
+  }
+
+  .leadsup__cta-content button {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__cta-container {
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .leadsup__cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
+  }
+
+  .leadsup__cta-content p {
+    color: #000;
+    font-weight: 700;
+  }
+
+  .leadsup__cta-content button {
+    align-self: flex-end;
+  }
+
+  .leadsup__cta-image {
+    position: absolute;
+    bottom:6rem;
+    left: 1rem;
+  }
+
+  .leadsup__cta-image img {
+    opacity: 0.3;
+  }
+}
+
+@media screen and (max-width: 550px) {
 }

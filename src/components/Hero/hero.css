@@ -60,7 +60,7 @@
   text-transform: uppercase;
   font-weight: 500;
   z-index: 1;
-  font-size: .9rem;
+  font-size: 0.9rem;
   color: var(--color-white);
   cursor: pointer;
   margin: 1rem 0;
@@ -88,4 +88,61 @@
 .leadsup__hero-info button:hover {
   color: var(--color-primary);
   transform: scale(1.06);
+}
+
+@media screen and (max-width: 1050px) {
+  .leadsup__hero-info h1 {
+    font-size: 1.9rem;
+  }
+
+  .leadsup__hero-info p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .leadsup__hero-info button {
+    font-size: 0.75rem;
+    padding: 0.5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 800px){
+
+.leadsup__hero-container {
+  height: 60vh;
+  background-position: center;
+}
+
+.leadsup__hero-container::before {
+  height: 61%;
+}
+
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__hero-container {
+    height: 50vh;
+    background-position: center;
+  }
+
+  .leadsup__hero-container::before {
+    height: 50%;
+  }
+
+  .leadsup__hero-info {
+    margin-top: 9rem;
+  }
+
+  .leadsup__hero-info p {
+    font-size: 0.9rem;
+  }
+
+  .leadsup__hero-info h1 {
+    font-size: 1.5rem;
+  }
+
+  .leadsup__hero-info button {
+    font-size: 0.6rem;
+    padding: 0.4rem 1.2rem;
+  }
 }

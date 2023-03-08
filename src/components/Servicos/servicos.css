@@ -122,3 +122,41 @@
     transform: scale(1.5);
   }
 }
+
+@media screen and (max-width: 1050px) {
+  .leadsup__servicos {
+    padding: 5rem 5rem;
+  }
+  .leadsup__servicos > h1 {
+    font-size: 1.8rem;
+  }
+  .leadsup__servicos > p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__servicos {
+    padding: 2rem 7rem;
+  }
+  .leadsup__servicos > h1 {
+    font-size: 1.5rem;
+  }
+  .leadsup__servicos > p {
+    font-size: 0.85rem;
+    margin-bottom: 3rem;
+  }
+  .leadsup__servios-container {
+    grid-template-columns: 2fr 2fr;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__servicos {
+    padding: 1rem 2rem;
+  }
+
+  .leadsup__servios-container {
+    grid-template-columns: 1fr;
+  }
+}

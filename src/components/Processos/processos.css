@@ -48,3 +48,31 @@
   text-align: start;
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 1050px) {
+  .leadsup__processos-etapa:nth-child(1):before,
+  .leadsup__processos-etapa:nth-child(2):before,
+  .leadsup__processos-etapa:nth-child(3):before {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__processos {
+    padding: 1.5rem 6rem;
+    margin: 3rem 0;
+  }
+  .leadsup__processos-etapa:nth-child(1):before,
+  .leadsup__processos-etapa:nth-child(2):before,
+  .leadsup__processos-etapa:nth-child(3):before {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__processos-etapa:nth-child(1):before,
+  .leadsup__processos-etapa:nth-child(2):before,
+  .leadsup__processos-etapa:nth-child(3):before {
+    width: 40%;
+  }
+}

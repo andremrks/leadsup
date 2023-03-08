@@ -15,10 +15,7 @@ const Parceiros = () => {
       <div className="leadsup__parceiros-container">
         <div className="leadsup__parceiros-text">
           <h1>Parceiros</h1>
-          <p>
-            Conheça algumas das empresas que já
-            <br /> impulsionaram conosco:
-          </p>
+          <p>Conheça algumas das empresas que já impulsionaram conosco:</p>
         </div>
         <Carousel
           className="leadsup__parceiros-carousel"

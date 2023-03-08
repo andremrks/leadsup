@@ -10,9 +10,9 @@
 }
 
 .leadsup__estrategia-container h1 {
-    color: var(--color-title);
-    font-size: 2.1rem;
-    margin-bottom: 4rem;
+  color: var(--color-title);
+  font-size: 2.1rem;
+  margin-bottom: 4rem;
 }
 
 .leadsup__estrategia-cards {
@@ -121,5 +121,28 @@
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .leadsup__estrategia {
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__estrategia-card:last-child {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__estrategia-container h1 {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .leadsup__estrategia-card:nth-child(2) {
+    margin-top: 2rem;
   }
 }

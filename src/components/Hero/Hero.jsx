@@ -14,7 +14,9 @@ const Hero = () => {
             <span> mais vendas</span>
             <br /> para sua empresa!
           </h1>
-          <button>Quero Aumentar Minha Vendas</button>
+          <a href="#contato">
+            <button>Quero Aumentar Minha Vendas </button>
+          </a>
         </div>
       </Fade>
     </section>

@@ -18,7 +18,9 @@ const CTA = () => {
             tangíveis e um aumento na sua base de clientes. Não perca mais
             tempo, nós podemos ajudar a alcançar o sucesso que você merece!
           </p>
-          <button>Contato</button>
+          <a href="#contato">
+            <button>Contato</button>
+          </a>
         </div>
         <div className="leadsup__cta-image">
           <img src={ctaImg} alt="ilustração" />

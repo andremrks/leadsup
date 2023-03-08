@@ -35,3 +35,51 @@
 .leadsup__vantagens-itens_item:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1050px) {
+  .leadsup__vantanges-img img {
+    width: 300px;
+  }
+
+  .leadsup__vantagens-content {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__vantagens {
+    padding: 1.5rem 5rem;
+  }
+
+  .leadsup__vantanges-img img {
+    width: 220px;
+  }
+
+  .leadsup__vantagens-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .leadsup__vantagens-itens_item {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__vantagens {
+    padding: 1.5rem 3rem;
+  }
+
+  .leadsup__vantagens-container {
+    flex-direction: column;
+  }
+
+  .leadsup__vantanges-img img {
+    width: 170px;
+  }
+
+  .leadsup__vantagens-content {
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+}

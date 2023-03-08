@@ -65,3 +65,35 @@ p {
   color: var(--color-primary);
   background-color: var(--color-white);
 }
+
+@media screen and (max-width: 1050px) {
+  .leadsup__contato {
+    padding: 1.5rem 3rem;
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .leadsup__contato-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .leadsup__contato {
+    padding: 1.5rem 0.5rem;
+    margin: 0;
+  }
+
+  .leadsup__contato-container h1 {
+    font-size: 1.1rem;
+  }
+
+  .leadsup__contato-container p {
+    font-size: 0.75rem;
+  }
+
+  .leadsup__contato-form {
+    width: 95%;
+  }
+}
