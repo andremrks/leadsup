@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/leadsup/static/css/main.eb040c31.css",
+    "main.css": "/leadsup/static/css/main.6882373a.css",
     "main.js": "/leadsup/static/js/main.889da237.js",
     "static/media/hero_background.png": "/leadsup/static/media/hero_background.2924301d827d26b5b254.png",
     "static/media/parceiro1.png": "/leadsup/static/media/parceiro1.f30e9fb718d3879fde28.png",
@@ -19,11 +19,11 @@
     "static/media/1- ícone data science.png": "/leadsup/static/media/1- ícone data science.c86c852bccc79229b6a3.png",
     "static/media/validacao.png": "/leadsup/static/media/validacao.0fdfed2bed8492a554f5.png",
     "index.html": "/leadsup/index.html",
-    "main.eb040c31.css.map": "/leadsup/static/css/main.eb040c31.css.map",
+    "main.6882373a.css.map": "/leadsup/static/css/main.6882373a.css.map",
     "main.889da237.js.map": "/leadsup/static/js/main.889da237.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb040c31.css",
+    "static/css/main.6882373a.css",
     "static/js/main.889da237.js"
   ]
 }
