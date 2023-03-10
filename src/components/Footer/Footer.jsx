@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
           <div className="leadsup__footer-links">
             <a
-              href="https://api.whatsapp.com/send?phone=13988266392&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Leads%20UP!"
+              href="https://wa.me/+5513988266392"
               target="_blank"
               rel="noreferrer"
             >
